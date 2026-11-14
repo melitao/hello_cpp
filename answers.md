@@ -17,3 +17,8 @@ main.cpp:7:75: error: expected ‘;’ before ‘return’
     8 |         return 0;
       |         ~~~~~~                                                             
 
+
+
+Task 3 Question 4: Roughly how many lines of assembly were there with -O0 vs. -O2? Why would we want -O2 on the robot?
+
+With -O0, there were about 8 lines of assembly, while -O2 only had about 3 lines. We want -O2 on the robot because it removes unnecessary instructions which helps the robot process information and respond to commands more quickly.
